@@ -174,6 +174,9 @@ def merge(lsts):
 		sets = results
 	return sets
 
+def fmesure(rappel,pre):
+	return 2*((pre*rappel)/(pre+rappel))
+
 def nettoyage_terme(s):
 	"""prend un libellé de maladie tel que trouvé dans umls etc sous forme de string. 
 	retourne une liste des termes présents dans cette string,  nettoyée
