@@ -1,1 +1,1 @@
-This script contains little functions I tend to use in many different situations
+Little functions and scripts I tend to use in many different situations
